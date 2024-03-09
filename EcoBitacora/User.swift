@@ -30,3 +30,20 @@ struct Trips: Codable {
     let distance: Double
     let duration: Int
 }
+
+struct Home: Codable {
+    var name: String
+    var user: [User]
+    var appliances: [Item]
+}
+
+
+struct Item: Codable {
+    // Variables inmutables
+    let category: String
+    let consumo: Int
+    
+    var name: String
+    var quantity: Int
+    var smart: Bool
+}
