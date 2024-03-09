@@ -51,6 +51,7 @@
 		3C526F582B9D055500C53762 /* EcoBitacora */ = {
 			isa = PBXGroup;
 			children = (
+				3C526F672B9D06B100C53762 /* Foundation */,
 				3C526F592B9D055500C53762 /* EcoBitacoraApp.swift */,
 				3C526F5B2B9D055500C53762 /* ContentView.swift */,
 				3C526F5D2B9D055800C53762 /* Assets.xcassets */,
@@ -65,6 +66,29 @@
 				3C526F602B9D055800C53762 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C526F672B9D06B100C53762 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3C526F692B9D06D700C53762 /* View Models  */,
+				3C526F682B9D06C200C53762 /* Models */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3C526F682B9D06C200C53762 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C526F692B9D06D700C53762 /* View Models  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
