@@ -7,9 +7,6 @@
 
 import Foundation
 
-struct User: Decodable {
-    var name: String
-}
 
 @Observable final class UserViewModel {
     let extractor = Extractors()

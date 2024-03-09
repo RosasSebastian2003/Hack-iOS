@@ -14,16 +14,16 @@ import Foundation
 
 struct User: Codable {
     let id: Int
-    let name: String 
+    let name: String
     let mail: String
     let password: String
-    let car: Car?
+    var cars: [Car] // Cambiado a un array para permitir múltiples coches.
 }
 
 struct Car: Codable {
     let model: String
-    let gasConsumption: Double // Cambiado a Double para mayor precisión.
-    var trips: [Trips] // Ahora puede contener múltiples viajes.
+    let gasConsumption: Double // Mantiene la precisión como Double.
+    var trips: [Trips] // Puede contener múltiples viajes.
 }
 
 struct Trips: Codable {
